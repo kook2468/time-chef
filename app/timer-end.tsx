@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: Spacing.xl,
-    paddingTop: Spacing.md,
+    paddingTop: Spacing.xxxl,
   },
   closeButton: {
     width: 40,

@@ -26,7 +26,7 @@ export const resources = {
       // Add timer screen
       createNewTimer: "Create New Timer",
       cookingName: "Cooking Name",
-      cookingNamePlaceholder: "e.g., Boil Pasta",
+      cookingNamePlaceholder: "e.g. Boil Egg",
       timerName: "Timer",
       minutes: "Minutes",
       seconds: "Seconds",
@@ -38,8 +38,10 @@ export const resources = {
       // Presets
       boilEgg: "Boil\nEgg",
       steamSweetPotato: "Steam\nSweet Potato",
-      boilPasta: "Boil\nPasta",
-      cookRamen: "Cook\nRamen",
+      boilPasta: "Cook\nPasta",
+      cookRamen: "Cook\nNoodles",
+      cookRice: "Rice\nSteaming",
+      cookDumplings: "Steam\nDumplings",
     },
   },
   ko: {
@@ -69,7 +71,7 @@ export const resources = {
       // Add timer screen
       createNewTimer: "새 타이머 만들기",
       cookingName: "요리 이름",
-      cookingNamePlaceholder: "예: 파스타 삶기",
+      cookingNamePlaceholder: "예: 반숙 달걀 삶기",
       timerName: "타이머",
       minutes: "분",
       seconds: "초",
@@ -83,6 +85,8 @@ export const resources = {
       steamSweetPotato: "고구마\n찌기",
       boilPasta: "파스타\n삶기",
       cookRamen: "라면\n끓이기",
+      cookRice: "밥\n뜸 들이기",
+      cookDumplings: "냉동만두\n찌기",
     },
   },
 } as const;

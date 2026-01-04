@@ -13,7 +13,6 @@ interface TimerPreset {
 interface TimerPresetsProps {
   presets: TimerPreset[];
   onPresetClick: (preset: TimerPreset) => void;
-  onReorder?: (presets: TimerPreset[]) => void;
 }
 
 export function TimerPresets({ presets, onPresetClick }: TimerPresetsProps) {
@@ -80,11 +79,11 @@ const styles = StyleSheet.create({
   name: {
     color: Colors.text,
     fontSize: FontSizes.md,
-    lineHeight: 22,
+    lineHeight: 24,
   },
   time: {
     color: Colors.textDark,
     fontSize: FontSizes.xs,
-    marginTop: Spacing.sm,
+    marginTop: Spacing.md,
   },
 });

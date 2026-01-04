@@ -20,10 +20,12 @@ export default function TimerListScreen() {
 
   // 기본 프리셋 (항상 표시)
   const defaultPresets = [
-    { id: 'default-1', emoji: '🥚', name: t('boilEgg'), minutes: 7, seconds: 0 },
-    { id: 'default-2', emoji: '🍠', name: t('steamSweetPotato'), minutes: 20, seconds: 0 },
-    { id: 'default-3', emoji: '🍝', name: t('boilPasta'), minutes: 9, seconds: 0 },
+    { id: 'default-1', emoji: '🥚', name: t('boilEgg'), minutes: 10, seconds: 0 },
+    { id: 'default-2', emoji: '🍠', name: t('steamSweetPotato'), minutes: 25, seconds: 0 },
+    { id: 'default-3', emoji: '🍝', name: t('boilPasta'), minutes: 8, seconds: 0 },
     { id: 'default-4', emoji: '🍜', name: t('cookRamen'), minutes: 4, seconds: 30 },
+    { id: 'default-5', emoji: '🍚', name: t('cookRice'), minutes: 10, seconds: 0 },
+    { id: 'default-6', emoji: '🥟', name: t('cookDumplings'), minutes: 12, seconds: 0 },
   ];
 
   // 사용자 추가 프리셋 + 기본 프리셋 (추가한 것이 위에)
@@ -142,7 +144,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     justifyContent: 'space-between',
     padding: Spacing.xl,
-    paddingTop: 20,
+    paddingTop: 40,
   },
   titleRow: {
     flexDirection: 'row',
@@ -176,6 +178,7 @@ const styles = StyleSheet.create({
   },
   presetsSection: {
     padding: Spacing.xl,
+    paddingBottom: 300
   },
   emptyState: {
     flex: 1,
